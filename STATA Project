@@ -1,0 +1,197 @@
+/* QUESTION 1
+
+a.What is the dependent variable? and state the reason for your response
+b.	What is the independent variable? Give reason for your response
+c.	What type of statistical technique is appropriate for the analysis? State reason for your response
+d.	What type of statistics is the test used, and why is it so?
+e.	What type test does the technique belongs to?
+f.	What is the Stata command for the analysis?
+g.	Interpret your findings
+h.	Write the commands in the Stata dofile and keep log of the output
+i.	State the command to be used in entering the information into Stata window*/
+clear
+input score teaching_method
+ 80  1
+ 85  1
+ 78  1
+ 83  1
+ 55  2
+ 34  2
+ 43  2
+ 54  2
+ 70  3
+ 65  3
+ 74  3
+ 77  3
+end
+
+label var score "Test Score"
+
+label var teaching_method "Teaching Method"
+
+label define teaching_method 1 "Lecture" 2 "Workshop" 3 "Online Learning"
+
+label values teaching_method teaching_method
+
+br
+summarize
+describe
+tab teaching_method
+mean score
+
+/*
+Answers;
+
+a. The dependent variable is the Test scores. Reason: The test score is the outcome that depends on the teaching method used.
+
+b.	The independent variable is the Teaching methods which are Lecture, Workshop and Online learning. Reason is teaching methods affect students performance.
+
+c.	The statistical technique appropriate for the analysis is One way analysis of variance (ANOVA). Reason: There is one dependent variable and 3 independent variables. So we are considering the mean of one dependent variable and 3 independent variables
+
+d.	The type of statistics test used is Inferential Statistics. Reason: The test used in this case is inferential statistics because we are making conclusions about the population based on sample data. 
+Specifically, we use One-Way ANOVA (Analysis of Variance) to determine if there is a statistically significant difference in mean test scores among the three teaching methods. 
+
+
+e.	The test type belongs to Parametric Test. Reason: ANOVA is a parametric test as it assumes normality and homogeneity of variance in the data.*/
+/*
+f. The stata command for the analysis*/
+
+histogram score, normal
+
+qnorm score
+
+anova score teaching_method
+
+
+/*
+g. Ho= There is no significant difference in the mean score among the three teaching methods
+   Ha= At least one teaching methods has a significantly different mean score
+   From our ANOVA result F-value 28.75  P-value is 0.0001 &  R squared value is 0.8646.
+   Since the P-value is 0.001(<0.05), we do not have enough evidence to support the null hypothesis
+   This means there is a statistically significant difference in mean scores between at least one of the teaching methods.
+   Since the R-squared is 0.8646, it means 86.46% of the variation in test scores is explained by the teaching method*/
+   
+   
+   
+ use "C:\Users\mchik\Documents\STATA_training\nhanes2l_.dta", clear
+
+ br
+ 
+ //Replace missing values with 0000
+ replace tgresult=0000 if missing( tgresult)
+
+ //Replace missing variables with 0 using loop  
+foreach var in corpuscl vitaminc zinc copper porphyrn lead loglead {
+replace `var' = 0 if missing(`var')
+}
+
+//Create a new variable, MAP
+generate MAP= bpdiast+(( bpsystol)-( bpdiast))/3
+
+//Relabel MAP "Blood Pressure" 
+label var MAP "Blood Pressure"
+
+//Categorize age
+recode age (18/24=1) (25/30=2) (31/35=3)(36/40=4) (41/45=5) (46/max=6), gen(age_cat)
+
+//Label age-groups
+label define agecatlbl 1 "18-24 years" 2 "25-30 years" 3 "31-35 years" 4 "36-40 years" 5 "41-45 years" 6 "46+ years"
+
+//Calculates and displays summary statistics for all variables 
+summarize
+
+//Compact listing of variables
+describe
+
+//Produces one-way table of frequency counts
+tab sex
+tab agegrp
+
+
+
+/*QUESTION 2A*/
+/*Run the simple regression analysis using the appropriate variables, 
+state the rationale behind your decision*/
+
+regress MAP bmi
+
+/* MAP=66.60+1.23bmi
+Ho= There is no relationship between bmi & bp
+HA= There is relationship between bmi & bp
+p-value= 0.0000. Therefore, we reject the null hypothesis and accept the alternative hypothesis
+Higher bmi is associated with higher blood pressure*/
+
+/*QUESTION 2B*/
+/*Run multiple regression analysis on the relevant variables and also
+interpret your findings with justification*/
+
+regress MAP age i.sex bmi
+
+/*Check for assumptions: 1. Normality*/
+
+histogram age, normal
+
+histogram bmi, normal
+
+/*2.Normality using Skewness-Kurtosis test*/
+
+sktest bmi
+
+sktest age 
+
+/*3.Check for normality of errors using Q-Q Plot)*/
+
+qnorm bmi
+
+qnorm age
+
+/*4.No perfect multicolinearity*/
+
+regress MAP age bmi
+
+vif
+
+/*5.Homoscedasiticity (constant variance of residuals)*/
+
+regress MAP age sex bmi
+
+vif
+
+estat hettest
+
+/*QUESTION 2C*/
+/*Perform logistic regression on the relevant dependent and independent variables 
+and state your reason for the selection of the variables*/
+
+logistic highbp age bmi MAP
+
+/*Predicted probability= 0.284, MAP= P-value 0.000, Constant 0.325, Age P-value= 0.000,likelihood= -1104
+One year increase in age increase the odd of having increase in Blood Pressure by 2.37%
+BMI does not have strong effect on BP
+One unit increase in MAP increase increase the odd of having High Blood pressure by 56.4%*/
+
+/*QUESTION 2D*/
+/*Run ttest on some of the relevant variables and also interpret your findings*/
+ttest MAP, by(highbp)
+
+/* The mean value for MAP for individuals with HighBP is 111.52 while the mean for those without HighBP is 88.28
+The mean difference between the 2 groups is -23.25, t = -1.2e+02 and p-value is 0.0000 which means that MAP is significantly higher
+among individuals with highbp as compared to those without highbp.
+Since the confidence interval does not include 0 (ranges between  -23.62483 and  -22.86668),
+we reject the null hypothesis (Ho)
+Conclusively, there is strong evidence that individuals with highbp have higher MAP than those without highbp*/
+
+clear
+
+describe race
+
+codebook race
+
+/*Question 2E*/
+/*Observe the relevant variables and run analysis of variance (ANOVA)*/
+
+anova MAP race
+/*1.The ANOVA results indicate that race has a statistically significant effect on MAP (p < 0.000). 
+2. The R-squared value (0.0039) suggests that race explains only a small portion of the variability in MAP.*/
+
+
