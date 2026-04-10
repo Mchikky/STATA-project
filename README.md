@@ -7,6 +7,12 @@ The table below describe the test score for three students using three technique
 Write the commands in the Stata dofile and keep log of the output
 #### <img width="556" height="432" alt="Capture2" src="https://github.com/user-attachments/assets/a31b9cac-8d7f-43e6-9bfd-5e8073061672" />
 #### <img width="199" height="273" alt="CaptureA" src="https://github.com/user-attachments/assets/b7a214f1-551a-4ee2-a1ec-b7d0265201cc" />
+#### <img width="518" height="127" alt="CaptureAA" src="https://github.com/user-attachments/assets/67c94ec7-7a79-453c-bfeb-b2bb6be2ce44" />
+#### <img width="617" height="204" alt="CaptureAAA" src="https://github.com/user-attachments/assets/a3c83c1f-1c2e-4351-9a95-44eb1b3e5d9d" />
+#### <img width="417" height="176" alt="CaptureAAAA" src="https://github.com/user-attachments/assets/c7281913-32eb-4997-84cf-687cce3204d5" />
+#### <img width="464" height="132" alt="CaptureAAAAA" src="https://github.com/user-attachments/assets/3bdc28fe-118f-4328-8b34-2566cc8e4333" />
+
+
 
 #### a.	What is the dependent variable? and state the reason for your response
  The dependent variable is the Test scores. Reason: The test score is the outcome that depends on the teaching method used.
