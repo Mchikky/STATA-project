@@ -61,17 +61,14 @@ histogram score, normal
 qnorm score
 
 anova score teaching_method
-
-
 /*
+
 g. Ho= There is no significant difference in the mean score among the three teaching methods
    Ha= At least one teaching methods has a significantly different mean score
    From our ANOVA result F-value 28.75  P-value is 0.0001 &  R squared value is 0.8646.
    Since the P-value is 0.001(<0.05), we do not have enough evidence to support the null hypothesis
    This means there is a statistically significant difference in mean scores between at least one of the teaching methods.
    Since the R-squared is 0.8646, it means 86.46% of the variation in test scores is explained by the teaching method*/
-   
-   
    
  use "C:\Users\mchik\Documents\STATA_training\nhanes2l_.dta", clear
 
@@ -106,8 +103,6 @@ describe
 //Produces one-way table of frequency counts
 tab sex
 tab agegrp
-
-
 
 /*QUESTION 2A*/
 /*Run the simple regression analysis using the appropriate variables, 
