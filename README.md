@@ -47,6 +47,7 @@ anova score teaching_method
 ## Question Two: Study the dataset on the Second National Health and Nutrition Examination Survey using “webuse nhanes2l” 
 Import dataset and clean 
 #### <img width="839" height="506" alt="image" src="https://github.com/user-attachments/assets/bbb4bdb2-a778-4a2b-8593-026f0c5d4e4c" />
+browse to show dataset
 #### <img width="1182" height="232" alt="Captureq" src="https://github.com/user-attachments/assets/61042951-f83e-49ad-9e6c-4121b1a81d2f" />
 #### <img width="720" height="345" alt="CaptureSu" src="https://github.com/user-attachments/assets/b407847e-cc96-45d1-ac27-c4d0cf657cf8" />
 #### <img width="788" height="348" alt="CaptureDe" src="https://github.com/user-attachments/assets/04ae8300-d003-4f39-be28-42d7a7502f1c" />
