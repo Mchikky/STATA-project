@@ -12,8 +12,6 @@ Write the commands in the Stata dofile and keep log of the output
 #### <img width="417" height="176" alt="CaptureAAAA" src="https://github.com/user-attachments/assets/c7281913-32eb-4997-84cf-687cce3204d5" />
 #### <img width="464" height="132" alt="CaptureAAAAA" src="https://github.com/user-attachments/assets/3bdc28fe-118f-4328-8b34-2566cc8e4333" />
 
-
-
 #### a.	What is the dependent variable? and state the reason for your response
  The dependent variable is the Test scores. Reason: The test score is the outcome that depends on the teaching method used.
 
@@ -42,6 +40,7 @@ The test type belongs to Parametric Test. Reason: ANOVA is a parametric test as 
    Since the P-value is 0.001(<0.05), we do not have enough evidence to support the null hypothesis
    This means there is a statistically significant difference in mean scores between at least one of the teaching methods.
    Since the R-squared is 0.8646, it means 86.46% of the variation in test scores is explained by the teaching method
+   
    
 ## Question Two: Study the dataset on the Second National Health and Nutrition Examination Survey using “webuse nhanes2l” 
 Import dataset and clean 
