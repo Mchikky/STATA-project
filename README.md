@@ -40,6 +40,7 @@ Import dataset and clean
 #### <img width="833" height="386" alt="Capture4" src="https://github.com/user-attachments/assets/1c472d82-8c97-4df9-8c35-c01c8ced224f" />
 
 ### b.	Run multiple regression analysis on the relevant variables and also interpret your findings with justification
+Check conditions for multiple regression: linearity of relationships between the dependent and independent variables, normality of residues, homoscedasticity of the residues, no influencial points (outliers), independence of the observations
 #### <img width="400" height="505" alt="Capture6" src="https://github.com/user-attachments/assets/c86180fa-3803-49d0-8f12-454495986d39" />
 
 
