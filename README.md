@@ -56,6 +56,7 @@ browse to show dataset
 
 ### a.	Run the simple regression analysis using the appropriate variables, state the rationale behind your decision
 #### <img width="569" height="489" alt="CaptureAs" src="https://github.com/user-attachments/assets/8534c93b-65d3-41ae-9cc5-f947619bc803" />
+<img width="679" height="472" alt="CaptureAge" src="https://github.com/user-attachments/assets/7db54472-8ebc-4bf2-a7c1-9d7aebb89f21" />
 
 
 ### b.	Run multiple regression analysis on the relevant variables and also interpret your findings with justification
