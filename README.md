@@ -3,6 +3,16 @@
 ## Question One: 
 The table below describe the test score for three students using three techniques such as lecture, workshop and online learning, kindly use the appropriate test statistic to test significant mean difference in the score using the three-teaching method at 5% level of significant
 ### <img width="632" height="142" alt="Capture1" src="https://github.com/user-attachments/assets/40436b96-2136-4015-91c0-43bfd0a88686" />
+### Goal:
+To evaluate how different teaching methods influence learning outcomes and academic success.
+#### Objectives
+ 1. To evaluate how different teaching methods influence learning outcomes and academic success.
+ 2. Identify the most effective teaching method
+ 3. Explore ways to improve learning outcomes
+
+#### Data input and preparation
+- Data entered directly into Stata using the input command, inspected using the br (browse) command, 2 variables created: score (continuous -test scores) and teaching method (categorical - lecture/workshop/online). Students’ performance based on three(3) different teaching methods used (Online learning, Workshop, and Lecture)
+
 #### State the command to be used in entering the information into Stata window. 
 Write the commands in the Stata dofile and keep log of the output
 #### <img width="556" height="432" alt="Capture2" src="https://github.com/user-attachments/assets/a31b9cac-8d7f-43e6-9bfd-5e8073061672" />
@@ -56,7 +66,13 @@ To assess the effect of Demographic and Anthropometric data on the risk of havin
   1. Analyze Demographic Determinants (Sex and Age) of having High Blood Pressure
   2. To identify links between Anthropometric data and High Blood Pressure
   3. To identify the strongest predictor of High Blood Pressure
-     
+### Data Source, Acquisition, and Exploration: 
+- National Health and Nutrition Examination Survey (NHANES) 2021. Data from National nutrition survey conducted by Centers for Disease
+  Control and Prevention National Center for Health Statistics. Second National Health and Nutrition Examination Survey
+  (NHANES21) accessed via webuse nhanes2l. Data exploration via describe, summarize, and histogram to
+  understand variable distributions.
+### Data cleaning: 
+Verified duplicates, missing values, creating derived variables, Mean Arterial Pressure, MAP.
 Import dataset and clean 
 #### <img width="839" height="506" alt="image" src="https://github.com/user-attachments/assets/bbb4bdb2-a778-4a2b-8593-026f0c5d4e4c" />
 browse to show dataset
