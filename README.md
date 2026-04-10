@@ -42,6 +42,17 @@ anova score teaching_method
    Since the P-value is 0.001(<0.05), we do not have enough evidence to support the null hypothesis
    This means there is a statistically significant difference in mean scores between at least one of the teaching methods.
    Since the R-squared is 0.8646, it means 86.46% of the variation in test scores is explained by the teaching method
+
+### Recommendations
+- Since teaching methods have a significant impact on student performance, further analysis should be conducted to identify which specific methods differ.
+- The most effective teaching method, lecture (i.e., the one associated with the highest mean score of 81.5) should be prioritized for wider adoption.
+- Due to the significantly lower scores, in workshop, 46.5, teacher training programs should be implemented to improve their effectiveness or phase them out in favor of better-performing methods.
+- Additional factors (such as teacher experience, student engagement, or classroom resources) should be considered in future studies to improve teaching strategies.
+<img width="4493" height="427" alt="image" src="https://github.com/user-attachments/assets/5d8d7830-265a-4daa-9878-98469b8e65fe" />
+
+
+
+
    
    
 ## Question Two: Study the dataset on the Second National Health and Nutrition Examination Survey using “webuse nhanes2l” 
