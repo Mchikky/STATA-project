@@ -86,6 +86,12 @@ Logistic regression
 #### <img width="693" height="302" alt="CaptureLo" src="https://github.com/user-attachments/assets/0526a41d-df66-42a9-b724-6200c5a4afdf" />
  
 ### d.	Run ttest on some of the relevant variables and also interpret your findings
-####
+t-test determines if there is statistically significant different between the means of 2 groups
+#### <img width="994" height="142" alt="CaptureTT" src="https://github.com/user-attachments/assets/9cafd301-845e-4271-9015-3335b7438ab3" />
+#### <img width="693" height="339" alt="Capturetet" src="https://github.com/user-attachments/assets/8d10bd16-6a94-4f8a-bae9-51f97d5240b0" />
+
 ### e.	Observe the relevant variables and run analysis of variance (ANOVA)
-####
+anova compares the means among 3 or more groups
+#### <img width="843" height="72" alt="CaptureAN" src="https://github.com/user-attachments/assets/ffe619c3-d87b-4540-8870-34d794ed2540" />
+#### <img width="776" height="298" alt="CaptureAno" src="https://github.com/user-attachments/assets/e8700617-1548-4365-86f4-50325157824c" />
+
