@@ -94,15 +94,15 @@ browse to show dataset
 Check conditions for regression: linearity of relationships between the dependent and independent variables, normality of residues, homoscedasticity of the residues, no influencial points (outliers), independence of the observations
 #### <img width="569" height="489" alt="CaptureAs" src="https://github.com/user-attachments/assets/8534c93b-65d3-41ae-9cc5-f947619bc803" />
 histogram age
-#### <img width="679" height="472" alt="CaptureAge" src="https://github.com/user-attachments/assets/7db54472-8ebc-4bf2-a7c1-9d7aebb89f21" />
+#### <img width="550" height="333" alt="CaptureAge" src="https://github.com/user-attachments/assets/7db54472-8ebc-4bf2-a7c1-9d7aebb89f21" />
 histogram bmi
-#### <img width="681" height="479" alt="CaptureBMI" src="https://github.com/user-attachments/assets/96eadbeb-5aa8-47d1-b857-5b425842c95b" />
+#### <img width="550" height="333" alt="CaptureBMI" src="https://github.com/user-attachments/assets/96eadbeb-5aa8-47d1-b857-5b425842c95b" />
 sktest
 #### <img width="634" height="305" alt="Capturesk" src="https://github.com/user-attachments/assets/9e856d48-665e-427a-822f-ad0bd6808bab" />
 qnorm bmi
-#### <img width="681" height="475" alt="Capturebm" src="https://github.com/user-attachments/assets/b61824ba-f26d-4326-8b24-aa8f85c1d6cd" />
+#### <img width="550" height="333" alt="Capturebm" src="https://github.com/user-attachments/assets/b61824ba-f26d-4326-8b24-aa8f85c1d6cd" />
 qnorm age
-#### <img width="685" height="481" alt="CaptureAg" src="https://github.com/user-attachments/assets/91816208-a887-47e7-937e-e365c0e406e4" />
+#### <img width="550" height="333" alt="CaptureAg" src="https://github.com/user-attachments/assets/91816208-a887-47e7-937e-e365c0e406e4" />
 No perfect multicolinearity
 #### <img width="773" height="465" alt="CaptureVIF" src="https://github.com/user-attachments/assets/f0b7e08c-0243-417d-b310-a14aed15aef8" />
 Homoscedasticity
