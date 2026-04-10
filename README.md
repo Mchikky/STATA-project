@@ -50,6 +50,14 @@ anova score teaching_method
 - Additional factors (such as teacher experience, student engagement, or classroom resources) should be considered in future studies to improve teaching strategies.
    
 ## Question Two: Study the dataset on the Second National Health and Nutrition Examination Survey using “webuse nhanes2l” 
+## Goal: To assess the effect of Demographic and Anthropometric data on the risk of having Cardiovascular disease
+<img width="3318" height="158" alt="image" src="https://github.com/user-attachments/assets/404f235c-be6f-423a-b4f8-21eebdaad038" />
+- 1. Analyze Demographic Determinants (Sex and Age) of having High Blood Pressure
+- 2. To identify links between Anthropometric data and High Blood Pressure
+<img width="1259" height="88" alt="image" src="https://github.com/user-attachments/assets/050c2c05-2eef-4f1f-af7f-81b356a7ce7c" />
+- 3. To identify the strongest predictor of High Blood Pressure
+<img width="879" height="76" alt="image" src="https://github.com/user-attachments/assets/75d6df7f-7e0f-49b6-838f-7a9fef3c0c84" />
+
 Import dataset and clean 
 #### <img width="839" height="506" alt="image" src="https://github.com/user-attachments/assets/bbb4bdb2-a778-4a2b-8593-026f0c5d4e4c" />
 browse to show dataset
@@ -105,6 +113,5 @@ anova compares the means among 3 or more groups
 - Public health campaigns should emphasize the importance of weight management to control MAP and reduce the risk of cardiovascular diseases. 
 - Routine screening for Mean Arterial Pressure (MAP) in high-risk groups targeting individuals with elevated MAP levels, as they are strongly associated with hypertension.
 - While race shows statistical significance, its low explanatory power suggests that other factors (e.g., diet, lifestyle, genetics) might play a larger role in determining MAP. 
-<img width="4368" height="329" alt="image" src="https://github.com/user-attachments/assets/5ddd2999-7839-4fde-a0e2-4d50d8ef1036" />
 
 
