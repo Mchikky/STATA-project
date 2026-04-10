@@ -13,7 +13,8 @@ To evaluate how different teaching methods influence learning outcomes and acade
 Data input and preparation
 - Data entered directly into Stata using the input command, inspected using the br (browse) command, 2 variables created: score (continuous -test scores) and teaching method (categorical - lecture/workshop/online). Students’ performance based on three(3) different teaching methods used (Online learning, Workshop, and Lecture)
 - State the command to be used in entering the information into Stata window. 
-Write the commands in the Stata dofile and keep log of the output
+- Stata Dofile and Log: All Stata commands used saved in a do-file for reproducibility and output recorded in a log file for
+  documentation.
 #### <img width="556" height="432" alt="Capture2" src="https://github.com/user-attachments/assets/a31b9cac-8d7f-43e6-9bfd-5e8073061672" />
 #### <img width="199" height="273" alt="CaptureA" src="https://github.com/user-attachments/assets/b7a214f1-551a-4ee2-a1ec-b7d0265201cc" />
 #### <img width="518" height="127" alt="CaptureAA" src="https://github.com/user-attachments/assets/67c94ec7-7a79-453c-bfeb-b2bb6be2ce44" />
