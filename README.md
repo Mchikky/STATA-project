@@ -2,12 +2,11 @@
 
 ## Question One: 
 The table below describe the test score for three students using three techniques such as lecture, workshop and online learning, kindly use the appropriate test statistic to test significant mean difference in the score using the three-teaching method at 5% level of significant
-### Teaching Method
-- Lecture	Workshop	Online learning
-80	55	70
-85	34	65
-78	43	74
-83	54	77
+### <img width="632" height="142" alt="Capture1" src="https://github.com/user-attachments/assets/40436b96-2136-4015-91c0-43bfd0a88686" />
+
+
+
+
 
 a.	What is the dependent variable? and state the reason for your response
 b.	What is the independent variable? Give reason for your response
