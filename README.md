@@ -78,8 +78,6 @@ To assess the effect of Demographic and Anthropometric data on the risk of havin
   homoscedasticity check: estat hettest. 
 - Stata Dofile and Log: All Stata commands used saved in a do-file for reproducibility and output recorded in a
   log file for documentation.
-<img width="1937" height="417" alt="image" src="https://github.com/user-attachments/assets/374e4698-2870-4ff8-b851-ac67b4fbed40" />
-
 Import dataset and clean 
 #### <img width="839" height="506" alt="image" src="https://github.com/user-attachments/assets/bbb4bdb2-a778-4a2b-8593-026f0c5d4e4c" />
 browse to show dataset
