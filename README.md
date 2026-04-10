@@ -44,7 +44,6 @@ Q-Q plot, qnorm: quantile function of normal distribution
 #### <img width="550" height="333" alt="Capturef3" src="https://github.com/user-attachments/assets/74d459d5-910c-4bb9-89db-d4313718dc67" />
 anova score teaching_method
 #### <img width="622" height="266" alt="Capturef4" src="https://github.com/user-attachments/assets/fb185ea7-cf9e-4d9b-b318-9208cca34f5c" />
-
 #### g.	Interpret your findings
    Ho= There is no significant difference in the mean score among the three teaching methods
    Ha= At least one teaching methods has a significantly different mean score
