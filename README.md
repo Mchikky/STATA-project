@@ -55,6 +55,7 @@ browse to show dataset
 #### <img width="432" height="218" alt="Captureq2" src="https://github.com/user-attachments/assets/da10fa49-20c7-4863-86df-e8d67dea3c3a" />
 
 ### a.	Run the simple regression analysis using the appropriate variables, state the rationale behind your decision
+#### <img width="569" height="489" alt="CaptureAs" src="https://github.com/user-attachments/assets/8534c93b-65d3-41ae-9cc5-f947619bc803" />
 
 
 ### b.	Run multiple regression analysis on the relevant variables and also interpret your findings with justification
