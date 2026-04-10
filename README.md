@@ -1,4 +1,4 @@
-# Capstone Project
+# STATA Project
 
 ## Question One: 
 The table below describe the test score for three students using three techniques such as lecture, workshop and online learning, kindly use the appropriate test statistic to test significant mean difference in the score using the three-teaching method at 5% level of significant
