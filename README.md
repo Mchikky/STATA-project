@@ -50,12 +50,12 @@ anova score teaching_method
 - Additional factors (such as teacher experience, student engagement, or classroom resources) should be considered in future studies to improve teaching strategies.
    
 ## Question Two: Study the dataset on the Second National Health and Nutrition Examination Survey using “webuse nhanes2l” 
-
-### Goal: To assess the effect of Demographic and Anthropometric data on the risk of having Cardiovascular disease
+### Goal: 
+To assess the effect of Demographic and Anthropometric data on the risk of having Cardiovascular disease
 #### Objectives
-- 1. Analyze Demographic Determinants (Sex and Age) of having High Blood Pressure
-- 2. To identify links between Anthropometric data and High Blood Pressure
-- 3. To identify the strongest predictor of High Blood Pressure
+  1. Analyze Demographic Determinants (Sex and Age) of having High Blood Pressure
+  2. To identify links between Anthropometric data and High Blood Pressure
+  3. To identify the strongest predictor of High Blood Pressure
      
 Import dataset and clean 
 #### <img width="839" height="506" alt="image" src="https://github.com/user-attachments/assets/bbb4bdb2-a778-4a2b-8593-026f0c5d4e4c" />
