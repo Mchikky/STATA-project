@@ -26,7 +26,7 @@ label define teaching_method 1 "Lecture" 2 "Workshop" 3 "Online Learning"
 
 label values teaching_method teaching_method
 ### a.	What is the dependent variable? and state the reason for your response
-
+#### The dependent variable is the Test scores. Reason: The test score is the outcome that depends on the teaching method used.
 ### b.	What is the independent variable? Give reason for your response
 ### c.	What type of statistical technique is appropriate for the analysis? State reason for your response
 ### d.	What type of statistics is the test used, and why is it so?
