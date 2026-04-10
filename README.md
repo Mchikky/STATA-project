@@ -82,7 +82,9 @@ Multiple regression
 
 ### c.	Perform logistic regression on the relevant dependent and independent variables and state your reason for the selection of the variables
 Logistic regression 
-####
+#### <img width="872" height="109" alt="CaptureLog" src="https://github.com/user-attachments/assets/02f6593f-6a87-4929-9463-04d5865d53e5" />
+#### <img width="693" height="302" alt="CaptureLo" src="https://github.com/user-attachments/assets/0526a41d-df66-42a9-b724-6200c5a4afdf" />
+ 
 ### d.	Run ttest on some of the relevant variables and also interpret your findings
 ####
 ### e.	Observe the relevant variables and run analysis of variance (ANOVA)
