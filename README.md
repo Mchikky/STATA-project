@@ -46,13 +46,12 @@ anova score teaching_method
    
 ## Question Two: Study the dataset on the Second National Health and Nutrition Examination Survey using “webuse nhanes2l” 
 Import dataset and clean 
-#### <img width="840" height="504" alt="Captureq" src="https://github.com/user-attachments/assets/281407ec-e079-4faa-9bc6-17be015ca58c" />
-
+#### <img width="839" height="506" alt="image" src="https://github.com/user-attachments/assets/bbb4bdb2-a778-4a2b-8593-026f0c5d4e4c" />
 #### <img width="419" height="165" alt="Captureq1" src="https://github.com/user-attachments/assets/c332507c-3749-40b1-aedd-806fbef030e3" />
 #### <img width="432" height="218" alt="Captureq2" src="https://github.com/user-attachments/assets/da10fa49-20c7-4863-86df-e8d67dea3c3a" />
 
 ### a.	Run the simple regression analysis using the appropriate variables, state the rationale behind your decision
-#### <img width="833" height="386" alt="Capture4" src="https://github.com/user-attachments/assets/1c472d82-8c97-4df9-8c35-c01c8ced224f" />
+
 
 ### b.	Run multiple regression analysis on the relevant variables and also interpret your findings with justification
 Check conditions for multiple regression: linearity of relationships between the dependent and independent variables, normality of residues, homoscedasticity of the residues, no influencial points (outliers), independence of the observations
