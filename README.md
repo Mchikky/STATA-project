@@ -32,8 +32,6 @@ Histogram
 #### <img width="677" height="484" alt="Capturef2" src="https://github.com/user-attachments/assets/bf7a98d9-1ebe-4bb5-accb-9e97061c2c12" />
 Q-Q plot, qnorm: quantile function of normal distribution
 #### <img width="674" height="489" alt="Capturef3" src="https://github.com/user-attachments/assets/74d459d5-910c-4bb9-89db-d4313718dc67" />
-
-
 anova score teaching_method
 #### <img width="622" height="266" alt="Capturef4" src="https://github.com/user-attachments/assets/fb185ea7-cf9e-4d9b-b318-9208cca34f5c" />
 
