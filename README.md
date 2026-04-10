@@ -33,7 +33,7 @@ The statistical technique appropriate for the analysis is One way analysis of va
 
 #### e.	What type test does the technique belongs to?
 The test type belongs to Parametric Test. Reason: ANOVA is a parametric test as it assumes normality and homogeneity of variance in the data
-
+#### <img width="736" height="333" alt="CapE" src="https://github.com/user-attachments/assets/e9503b8b-25c8-4458-82db-181198f59409" />
 #### f.	What is the Stata command for the analysis?
 #### <img width="308" height="95" alt="CaptureA6" src="https://github.com/user-attachments/assets/930feaec-3ab8-45d7-8c91-1e318070798e" />
 Histogram
