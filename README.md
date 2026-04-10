@@ -11,7 +11,7 @@ To evaluate how different teaching methods influence learning outcomes and acade
  3. Explore ways to improve learning outcomes
 #### Data input and preparation
 - Data entered directly into Stata using the input command, inspected using the br (browse) command, 2 variables created: score (continuous -test scores) and teaching method (categorical - lecture/workshop/online). Students’ performance based on three(3) different teaching methods used (Online learning, Workshop, and Lecture)
-#### State the command to be used in entering the information into Stata window. 
+- State the command to be used in entering the information into Stata window. 
 Write the commands in the Stata dofile and keep log of the output
 #### <img width="556" height="432" alt="Capture2" src="https://github.com/user-attachments/assets/a31b9cac-8d7f-43e6-9bfd-5e8073061672" />
 #### <img width="199" height="273" alt="CaptureA" src="https://github.com/user-attachments/assets/b7a214f1-551a-4ee2-a1ec-b7d0265201cc" />
@@ -58,9 +58,9 @@ anova score teaching_method
 - Additional factors (such as teacher experience, student engagement, or classroom resources) should be considered in future studies to improve teaching strategies.
    
 ## Question Two: Study the dataset on the Second National Health and Nutrition Examination Survey using “webuse nhanes2l” 
-### Goal: 
+## Goal: 
 To assess the effect of Demographic and Anthropometric data on the risk of having Cardiovascular disease
-#### Objectives
+### Objectives
   1. Analyze Demographic Determinants (Sex and Age) of having High Blood Pressure
   2. To identify links between Anthropometric data and High Blood Pressure
   3. To identify the strongest predictor of High Blood Pressure
