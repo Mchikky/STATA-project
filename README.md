@@ -3,7 +3,9 @@
 ## Question One: 
 The table below describe the test score for three students using three techniques such as lecture, workshop and online learning, kindly use the appropriate test statistic to test significant mean difference in the score using the three-teaching method at 5% level of significant
 ### <img width="632" height="142" alt="Capture1" src="https://github.com/user-attachments/assets/40436b96-2136-4015-91c0-43bfd0a88686" />
-#### State the command to be used in entering the information into Stata window
+#### State the command to be used in entering the information into Stata window. 
+Write the commands in the Stata dofile and keep log of the output
+
 #### <img width="556" height="432" alt="Capture2" src="https://github.com/user-attachments/assets/a31b9cac-8d7f-43e6-9bfd-5e8073061672" />
 
 #### a.	What is the dependent variable? and state the reason for your response
@@ -24,14 +26,13 @@ The test type belongs to Parametric Test. Reason: ANOVA is a parametric test as 
 #### <img width="222" height="112" alt="Capture3" src="https://github.com/user-attachments/assets/6b3baa28-f3d4-44d6-bd68-c8f0635f4a2c" />
 
 #### g.	Interpret your findings
- Ho= There is no significant difference in the mean score among the three teaching methods
+   Ho= There is no significant difference in the mean score among the three teaching methods
    Ha= At least one teaching methods has a significantly different mean score
    From our ANOVA result F-value 28.75  P-value is 0.0001 &  R squared value is 0.8646.
    Since the P-value is 0.001(<0.05), we do not have enough evidence to support the null hypothesis
    This means there is a statistically significant difference in mean scores between at least one of the teaching methods.
    Since the R-squared is 0.8646, it means 86.46% of the variation in test scores is explained by the teaching method
    
-#### h.	Write the commands in the Stata dofile and keep log of the output
 
 
 ## Question Two: Study the dataset on the Second National Health and Nutrition Examination Survey using “webuse nhanes2l” 
