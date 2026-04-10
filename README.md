@@ -37,11 +37,11 @@ The statistical technique appropriate for the analysis is One way analysis of va
 The test type belongs to Parametric Test. Reason: ANOVA is a parametric test as it assumes normality and homogeneity of variance in the data
 #### <img width="736" height="333" alt="CapE" src="https://github.com/user-attachments/assets/e9503b8b-25c8-4458-82db-181198f59409" />
 #### f.	What is the Stata command for the analysis?
-#### <img width="336" height="95" alt="CaptureA6" src="https://github.com/user-attachments/assets/930feaec-3ab8-45d7-8c91-1e318070798e" />
+#### <img width="480" height="95" alt="CaptureA6" src="https://github.com/user-attachments/assets/930feaec-3ab8-45d7-8c91-1e318070798e" />
 Histogram
-#### <img width="677" height="484" alt="Capturef2" src="https://github.com/user-attachments/assets/bf7a98d9-1ebe-4bb5-accb-9e97061c2c12" />
+#### <img width="550" height="333" alt="Capturef2" src="https://github.com/user-attachments/assets/bf7a98d9-1ebe-4bb5-accb-9e97061c2c12" />
 Q-Q plot, qnorm: quantile function of normal distribution
-#### <img width="674" height="489" alt="Capturef3" src="https://github.com/user-attachments/assets/74d459d5-910c-4bb9-89db-d4313718dc67" />
+#### <img width="550" height="333" alt="Capturef3" src="https://github.com/user-attachments/assets/74d459d5-910c-4bb9-89db-d4313718dc67" />
 anova score teaching_method
 #### <img width="622" height="266" alt="Capturef4" src="https://github.com/user-attachments/assets/fb185ea7-cf9e-4d9b-b318-9208cca34f5c" />
 
