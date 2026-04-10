@@ -55,12 +55,30 @@ browse to show dataset
 #### <img width="432" height="218" alt="Captureq2" src="https://github.com/user-attachments/assets/da10fa49-20c7-4863-86df-e8d67dea3c3a" />
 
 ### a.	Run the simple regression analysis using the appropriate variables, state the rationale behind your decision
+Check conditions for regression: linearity of relationships between the dependent and independent variables, normality of residues, homoscedasticity of the residues, no influencial points (outliers), independence of the observations
 #### <img width="569" height="489" alt="CaptureAs" src="https://github.com/user-attachments/assets/8534c93b-65d3-41ae-9cc5-f947619bc803" />
-<img width="679" height="472" alt="CaptureAge" src="https://github.com/user-attachments/assets/7db54472-8ebc-4bf2-a7c1-9d7aebb89f21" />
+histogram age
+#### <img width="679" height="472" alt="CaptureAge" src="https://github.com/user-attachments/assets/7db54472-8ebc-4bf2-a7c1-9d7aebb89f21" />
+histogram bmi
+#### <img width="681" height="479" alt="CaptureBMI" src="https://github.com/user-attachments/assets/96eadbeb-5aa8-47d1-b857-5b425842c95b" />
+sktest
+#### <img width="634" height="305" alt="Capturesk" src="https://github.com/user-attachments/assets/9e856d48-665e-427a-822f-ad0bd6808bab" />
+qnorm bmi
+#### <img width="681" height="475" alt="Capturebm" src="https://github.com/user-attachments/assets/b61824ba-f26d-4326-8b24-aa8f85c1d6cd" />
+qnorm age
+#### <img width="685" height="481" alt="CaptureAg" src="https://github.com/user-attachments/assets/91816208-a887-47e7-937e-e365c0e406e4" />
+No perfect multicolinearity
+#### <img width="773" height="465" alt="CaptureVIF" src="https://github.com/user-attachments/assets/f0b7e08c-0243-417d-b310-a14aed15aef8" />
+Homoscedasticity
+#### <img width="737" height="496" alt="CapturerRV" src="https://github.com/user-attachments/assets/afaeef3f-f3eb-4be6-bf2e-59c9b74743cc" />
+#### <img width="576" height="143" alt="CaptureRe" src="https://github.com/user-attachments/assets/7da6b861-ebb2-4be8-acc2-18724af9968c" />
+#### <img width="595" height="276" alt="CaptureREg" src="https://github.com/user-attachments/assets/c3210b52-433d-4aeb-a18f-3000d2cebf39" />
+
+
 
 
 ### b.	Run multiple regression analysis on the relevant variables and also interpret your findings with justification
-Check conditions for multiple regression: linearity of relationships between the dependent and independent variables, normality of residues, homoscedasticity of the residues, no influencial points (outliers), independence of the observations
+
 
 ### c.	Perform logistic regression on the relevant dependent and independent variables and state your reason for the selection of the variables
 ### d.	Run ttest on some of the relevant variables and also interpret your findings
