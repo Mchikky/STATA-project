@@ -75,10 +75,15 @@ Simple regression
 #### <img width="576" height="143" alt="CaptureRe" src="https://github.com/user-attachments/assets/7da6b861-ebb2-4be8-acc2-18724af9968c" />
 #### <img width="595" height="276" alt="CaptureREg" src="https://github.com/user-attachments/assets/c3210b52-433d-4aeb-a18f-3000d2cebf39" />
 
-
 ### b.	Run multiple regression analysis on the relevant variables and also interpret your findings with justification
-
+Multiple regression
+#### <img width="430" height="37" alt="CaptureM" src="https://github.com/user-attachments/assets/e174e085-b99c-4d2b-a5ba-22665e36b87e" />
+#### <img width="690" height="315" alt="CaptureMR" src="https://github.com/user-attachments/assets/b559b7ce-d758-4d6e-a617-88174f5f21a4" />
 
 ### c.	Perform logistic regression on the relevant dependent and independent variables and state your reason for the selection of the variables
+Logistic regression 
+####
 ### d.	Run ttest on some of the relevant variables and also interpret your findings
+####
 ### e.	Observe the relevant variables and run analysis of variance (ANOVA)
+####
