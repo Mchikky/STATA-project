@@ -3,16 +3,14 @@
 ## Question One: 
 The table below describe the test score for three students using three techniques such as lecture, workshop and online learning, kindly use the appropriate test statistic to test significant mean difference in the score using the three-teaching method at 5% level of significant
 ### <img width="632" height="142" alt="Capture1" src="https://github.com/user-attachments/assets/40436b96-2136-4015-91c0-43bfd0a88686" />
-### Goal:
+## Goal:
 To evaluate how different teaching methods influence learning outcomes and academic success.
-#### Objectives
- 1. To evaluate how different teaching methods influence learning outcomes and academic success.
+### Objectives
+ 1. To compare traditional vs. modern teaching approaches.
  2. Identify the most effective teaching method
  3. Explore ways to improve learning outcomes
-
 #### Data input and preparation
 - Data entered directly into Stata using the input command, inspected using the br (browse) command, 2 variables created: score (continuous -test scores) and teaching method (categorical - lecture/workshop/online). Students’ performance based on three(3) different teaching methods used (Online learning, Workshop, and Lecture)
-
 #### State the command to be used in entering the information into Stata window. 
 Write the commands in the Stata dofile and keep log of the output
 #### <img width="556" height="432" alt="Capture2" src="https://github.com/user-attachments/assets/a31b9cac-8d7f-43e6-9bfd-5e8073061672" />
