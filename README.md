@@ -6,6 +6,7 @@ The table below describe the test score for three students using three technique
 #### State the command to be used in entering the information into Stata window. 
 Write the commands in the Stata dofile and keep log of the output
 #### <img width="556" height="432" alt="Capture2" src="https://github.com/user-attachments/assets/a31b9cac-8d7f-43e6-9bfd-5e8073061672" />
+#### <img width="199" height="273" alt="CaptureA" src="https://github.com/user-attachments/assets/b7a214f1-551a-4ee2-a1ec-b7d0265201cc" />
 
 #### a.	What is the dependent variable? and state the reason for your response
  The dependent variable is the Test scores. Reason: The test score is the outcome that depends on the teaching method used.
@@ -41,8 +42,6 @@ Import dataset and clean
 
 ### b.	Run multiple regression analysis on the relevant variables and also interpret your findings with justification
 Check conditions for multiple regression: linearity of relationships between the dependent and independent variables, normality of residues, homoscedasticity of the residues, no influencial points (outliers), independence of the observations
-#### <img width="400" height="505" alt="Capture6" src="https://github.com/user-attachments/assets/c86180fa-3803-49d0-8f12-454495986d39" />
-
 
 ### c.	Perform logistic regression on the relevant dependent and independent variables and state your reason for the selection of the variables
 ### d.	Run ttest on some of the relevant variables and also interpret your findings
