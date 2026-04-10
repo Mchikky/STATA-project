@@ -106,5 +106,12 @@ anova compares the means among 3 or more groups
 #### <img width="776" height="298" alt="CaptureAno" src="https://github.com/user-attachments/assets/e8700617-1548-4365-86f4-50325157824c" />
 #### <img width="843" height="72" alt="CaptureAN" src="https://github.com/user-attachments/assets/ffe619c3-d87b-4540-8870-34d794ed2540" />
 #### <img width="692" height="276" alt="CaptureAnov" src="https://github.com/user-attachments/assets/d65f3b84-cbf4-4e36-b830-e9d97215ff13" />
+###
+
+Age-based screening programs should be reinforced, especially for older individuals. Although BMI was not significant in this analysis, weight management should still be encouraged as part of a healthy lifestyle. 
+Public health campaigns should emphasize the importance of weight management to control MAP and reduce the risk of cardiovascular diseases. 
+Routine screening for Mean Arterial Pressure (MAP) in high-risk groups targeting individuals with elevated MAP levels, as they are strongly associated with hypertension.
+While race shows statistical significance, its low explanatory power suggests that other factors (e.g., diet, lifestyle, genetics) might play a larger role in determining MAP. 
+<img width="4368" height="329" alt="image" src="https://github.com/user-attachments/assets/5ddd2999-7839-4fde-a0e2-4d50d8ef1036" />
 
 
