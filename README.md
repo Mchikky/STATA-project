@@ -92,6 +92,8 @@ t-test determines if there is statistically significant different between the me
 
 ### e.	Observe the relevant variables and run analysis of variance (ANOVA)
 anova compares the means among 3 or more groups
-#### <img width="843" height="72" alt="CaptureAN" src="https://github.com/user-attachments/assets/ffe619c3-d87b-4540-8870-34d794ed2540" />
 #### <img width="776" height="298" alt="CaptureAno" src="https://github.com/user-attachments/assets/e8700617-1548-4365-86f4-50325157824c" />
+#### <img width="843" height="72" alt="CaptureAN" src="https://github.com/user-attachments/assets/ffe619c3-d87b-4540-8870-34d794ed2540" />
+#### <img width="692" height="276" alt="CaptureAnov" src="https://github.com/user-attachments/assets/d65f3b84-cbf4-4e36-b830-e9d97215ff13" />
+
 
