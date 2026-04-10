@@ -3,26 +3,8 @@
 ## Question One: 
 The table below describe the test score for three students using three techniques such as lecture, workshop and online learning, kindly use the appropriate test statistic to test significant mean difference in the score using the three-teaching method at 5% level of significant
 ### <img width="632" height="142" alt="Capture1" src="https://github.com/user-attachments/assets/40436b96-2136-4015-91c0-43bfd0a88686" />
-input score teaching_method
- 80  1
- 85  1
- 78  1
- 83  1
- 55  2
- 34  2
- 43  2
- 54  2
- 70  3
- 65  3
- 74  3
- 77  3
-end
+###<img width="556" height="432" alt="Capture2" src="https://github.com/user-attachments/assets/a31b9cac-8d7f-43e6-9bfd-5e8073061672" />
 
-label var score "Test Score"
-
-label var teaching_method "Teaching Method"
-
-label define teaching_method 1 "Lecture" 2 "Workshop" 3 "Online Learning"
 
 label values teaching_method teaching_method
 ### a.	What is the dependent variable? and state the reason for your response
