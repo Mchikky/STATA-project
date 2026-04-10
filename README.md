@@ -28,8 +28,11 @@ The test type belongs to Parametric Test. Reason: ANOVA is a parametric test as 
 
 #### f.	What is the Stata command for the analysis?
 #### <img width="222" height="112" alt="Capture3" src="https://github.com/user-attachments/assets/6b3baa28-f3d4-44d6-bd68-c8f0635f4a2c" />
+Histogram
 #### <img width="572" height="240" alt="Capturef1" src="https://github.com/user-attachments/assets/39b00c4d-5704-4788-a25b-b8d538a8b5f9" />
+Q-Q plot for normality of residue
 #### <img width="677" height="484" alt="Capturef2" src="https://github.com/user-attachments/assets/bf7a98d9-1ebe-4bb5-accb-9e97061c2c12" />
+
 #### <img width="674" height="489" alt="Capturef3" src="https://github.com/user-attachments/assets/74d459d5-910c-4bb9-89db-d4313718dc67" />
 #### <img width="622" height="266" alt="Capturef4" src="https://github.com/user-attachments/assets/fb185ea7-cf9e-4d9b-b318-9208cca34f5c" />
 
