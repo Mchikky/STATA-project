@@ -5,7 +5,6 @@ The table below describe the test score for three students using three technique
 ### <img width="632" height="142" alt="Capture1" src="https://github.com/user-attachments/assets/40436b96-2136-4015-91c0-43bfd0a88686" />
 #### State the command to be used in entering the information into Stata window. 
 Write the commands in the Stata dofile and keep log of the output
-
 #### <img width="556" height="432" alt="Capture2" src="https://github.com/user-attachments/assets/a31b9cac-8d7f-43e6-9bfd-5e8073061672" />
 
 #### a.	What is the dependent variable? and state the reason for your response
@@ -33,10 +32,12 @@ The test type belongs to Parametric Test. Reason: ANOVA is a parametric test as 
    This means there is a statistically significant difference in mean scores between at least one of the teaching methods.
    Since the R-squared is 0.8646, it means 86.46% of the variation in test scores is explained by the teaching method
    
-
-
 ## Question Two: Study the dataset on the Second National Health and Nutrition Examination Survey using “webuse nhanes2l” 
+Import dataset and clean 
+#### <img width="833" height="386" alt="Capture4" src="https://github.com/user-attachments/assets/c5b0e55f-ede8-400d-a3cf-80d9f48fb03d" />
+
 ### a.	Run the simple regression analysis using the appropriate variables, state the rationale behind your decision
+
 ### b.	Run multiple regression analysis on the relevant variables and also interpret your findings with justification
 ### c.	Perform logistic regression on the relevant dependent and independent variables and state your reason for the selection of the variables
 ### d.	Run ttest on some of the relevant variables and also interpret your findings
