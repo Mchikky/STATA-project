@@ -71,10 +71,9 @@ No perfect multicolinearity
 #### <img width="773" height="465" alt="CaptureVIF" src="https://github.com/user-attachments/assets/f0b7e08c-0243-417d-b310-a14aed15aef8" />
 Homoscedasticity
 #### <img width="737" height="496" alt="CapturerRV" src="https://github.com/user-attachments/assets/afaeef3f-f3eb-4be6-bf2e-59c9b74743cc" />
+Simple regression
 #### <img width="576" height="143" alt="CaptureRe" src="https://github.com/user-attachments/assets/7da6b861-ebb2-4be8-acc2-18724af9968c" />
 #### <img width="595" height="276" alt="CaptureREg" src="https://github.com/user-attachments/assets/c3210b52-433d-4aeb-a18f-3000d2cebf39" />
-
-
 
 
 ### b.	Run multiple regression analysis on the relevant variables and also interpret your findings with justification
