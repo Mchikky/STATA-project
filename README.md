@@ -9,7 +9,8 @@ To evaluate how different teaching methods influence learning outcomes and acade
  1. To compare traditional vs. modern teaching approaches.
  2. Identify the most effective teaching method
  3. Explore ways to improve learning outcomes
-#### Data input and preparation
+#### Methodology
+Data input and preparation
 - Data entered directly into Stata using the input command, inspected using the br (browse) command, 2 variables created: score (continuous -test scores) and teaching method (categorical - lecture/workshop/online). Students’ performance based on three(3) different teaching methods used (Online learning, Workshop, and Lecture)
 - State the command to be used in entering the information into Stata window. 
 Write the commands in the Stata dofile and keep log of the output
@@ -64,13 +65,21 @@ To assess the effect of Demographic and Anthropometric data on the risk of havin
   1. Analyze Demographic Determinants (Sex and Age) of having High Blood Pressure
   2. To identify links between Anthropometric data and High Blood Pressure
   3. To identify the strongest predictor of High Blood Pressure
-### Data Source, Acquisition, and Exploration: 
+### Data Source and acquisition 
 - National Health and Nutrition Examination Survey (NHANES) 2021. Data from National nutrition survey conducted by Centers for Disease
   Control and Prevention National Center for Health Statistics. Second National Health and Nutrition Examination Survey
   (NHANES21) accessed via webuse nhanes2l. Data exploration via describe, summarize, and histogram to
   understand variable distributions.
-### Data cleaning: 
-Verified duplicates, missing values, creating derived variables, Mean Arterial Pressure, MAP.
+### Methodology
+- Data cleaning and exploration: Verified duplicates, missing values, creating derived variables, Mean Arterial Pressure, MAP.
+- Statistical Technique Selection: Simple linear regression, multiple linear Regression, logistic regression, T-test,
+  Analysis of Variance (ANOVA). 
+- Assumptions Checking: Normality assessed using histograms and Q-Q plots, multicollinearity check: Variation Inflation Factor (VIF),
+  homoscedasticity check: estat hettest. 
+- Stata Dofile and Log: All Stata commands used saved in a do-file for reproducibility and output recorded in a
+  log file for documentation.
+<img width="1937" height="417" alt="image" src="https://github.com/user-attachments/assets/374e4698-2870-4ff8-b851-ac67b4fbed40" />
+
 Import dataset and clean 
 #### <img width="839" height="506" alt="image" src="https://github.com/user-attachments/assets/bbb4bdb2-a778-4a2b-8593-026f0c5d4e4c" />
 browse to show dataset
@@ -132,7 +141,8 @@ anova compares the means among 3 or more groups
 - The analysis carried out on this dataset was limited only on Simple regression, multiple regression, logistic regression and Anova.
 - Some health conditions require long-term monitoring like bp, diabetes diagnosis thereby giving fluctuating results, etc  but Nhanes21
   only provides a one-time snapshot
-- nhanes2l dataset does not track participants over time, making it difficult to study disease progression. example how prediabetes turns into diabetes overtime
+- Nhanes2l dataset does not track participants over time, making it difficult to study disease progression. example how prediabetes turns
+  into diabetes overtime
 
 
 
